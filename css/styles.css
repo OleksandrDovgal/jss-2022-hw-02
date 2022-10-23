@@ -1,0 +1,130 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bg-color: #ffffff;
+    --secondary-bg-color: #2F303A;
+    --third-bg-color: #F5F4FA;
+    --header-logo-black-color: #000000; 
+    --footer-contacts-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--primary-bg-color);
+}
+
+/* main bgc: #FFFFFF; */
+/* section-Наша-команда background: #F5F4FA; */
+/* secondary background: #2F303A; */
+/* Team background: #F5F4FA; */  
+
+
+/* Logo common styles in header & footer */
+.nonunderline {
+    text-decoration: none;
+}
+
+.logo-span {
+    color: var(--accent-color); 
+}
+
+/* Text >Studio< in header logo */
+.header-logo {
+    color: var(--header-logo-black-color);
+}
+
+/* Відміна disc для ul > li */
+.list {
+    list-style: none;
+}
+
+/* Site nav */
+.site-nav .link {
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* Phone & email links common style */
+.links {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+/* Header email & phone links*/
+.header-contacts:hover,
+.header-contacts:focus {
+    color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+    color: var(--primary-bg-color);
+    background-color: var(--secondary-bg-color);
+}
+
+.hero-btn {
+    --btn-color: #ffffff;
+    color: var(--btn-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+/* Section */
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Features */
+.feature-list .title {
+    color: var(--title-text-color);
+}
+
+/* Our Team */
+.third-bgc {
+    background-color: var(--third-bg-color);
+}
+
+.team-member-card {
+    width: 270px;
+    height: 368px;
+    background-color: var(--primary-bg-color);
+}
+
+
+
+/* Footer */
+.footer {
+    background: var(--secondary-bg-color);
+}
+
+/* Text >Studio< in footer logo */
+.footer-logo {
+    color: var(--primary-bg-color);
+}
+
+/* Location link */
+.location {
+    --location-text-color: #ffffff;
+    color: var(--location-text-color);
+}
+
+.location:hover,
+.location:focus {
+    color: var(--accent-color);
+}
+
+/* Footer email & phone links */
+.footer-contacts {
+    color: var(--footer-contacts-color);
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus {
+    color: var(--accent-color);
+}
